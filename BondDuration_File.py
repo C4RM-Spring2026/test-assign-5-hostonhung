@@ -13,9 +13,4 @@ def getBondPrice(y, face, couponRate, m, ppy=1):
     pvcf[-1] += face * df[-1]
     
     return np.sum(pvcf)   
-    y = 0.03
-    face = 2000000
-    couponRate = 0.04
-    m = 10   
-
-    print(getBondPrice(y, face, couponRate, m))
+    
