@@ -12,5 +12,5 @@ def getBondPrice(y, face, couponRate, m, ppy=1):
     pvcf   = coupon * df                   
     pvcf[-1] += face * df[-1]
     
-    return np.sum(pvcf)   
+    return np.sum(pvcf) 
     
