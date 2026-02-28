@@ -1,4 +1,3 @@
-import inspect
 
 import WhoAmI_File
 def test_WhoAmI():
